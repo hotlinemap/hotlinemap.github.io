@@ -3,6 +3,21 @@ body {
 	background-color: GhostWhite;
 }
 
-h1 {
-	text-align: center;
+section.header {
+    background-color: black;
+    background-image: url(https://storage.googleapis.com/esfcoco-hotlinemap/IMG_2580.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-text {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    color: white;
+    text-align: center;
+}
+
+section.find-numbers {
+    padding-top: 50px;
 }
