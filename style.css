@@ -27,3 +27,7 @@ section.find-numbers {
     height: 400px;
     overflow: auto;
 }
+
+.search {
+    text-align: center;
+}

@@ -23,22 +23,26 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="jumbotron">
-                        <h2>Where are you?</h2>
-                        <br>
-                        <div class="dropdown">
-                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select Country
-                            <span class="caret"></span></button>
-                            <ul class="dropdown-menu">
-                                <li><a href="#detect" onclick="geoLocation()">Auto Detect</a></li>
-                                <li><a href="#hk" onclick="displayHK()">Hong Kong</a></li>
-                                <li><a href="#china" onclick="displayChina()">China</a></li>
-                                <li><a href="#taiwan" onclick="displayTaiwan()">Taiwan</a></li>
-                                <li><a href="#">Japan</a></li>
-                                <li><a href="#">USA</a></li>
-                                <li><a href="#">Australia</a></li>
-                            </ul>
+                        <div class="search">
+                            <h2>Where are you?</h2>
+                            <br>
+                            <div class="dropdown">
+                                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select Country
+                                <span class="caret"></span></button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#detect" onclick="getLocation()">Auto Detect</a></li>
+                                    <li><a href="#hk" onclick="displayHK()">Hong Kong</a></li>
+                                    <li><a href="#china" onclick="displayChina()">China</a></li>
+                                    <li><a href="#taiwan" onclick="displayTaiwan()">Taiwan</a></li>
+                                    <li><a href="#">Japan</a></li>
+                                    <li><a href="#">USA</a></li>
+                                    <li><a href="#">Australia</a></li>
+                                </ul>
+                            </div>
+                            <br>
+                            <p id="selected"></p>
+                            <p id="demo"></p>
                         </div>
-                    <p id="demo"></p>
                     </div>
                 </div>
                 <div class="col-sm-6">
