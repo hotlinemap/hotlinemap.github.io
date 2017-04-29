@@ -1,3 +1,44 @@
 function suicideWebsite() {
 	window.alert("Please remember. You should never, no matter what, take you life. It is something that you will regret. Your life can always get better.");
 }
+// The code from here onward is for the navagation box.
+        var x = document.getElementById("demo");
+        var displayInfo = document.getElementById("information");
+        
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            } else {
+                x.innerHTML = "Geolocation is not supported by this browser.";
+            }
+        }
+        
+        function showPosition(position) {
+            x.innerHTML = "Latitude: " + position.coords.latitude + 
+            "<br>Longitude: " + position.coords.longitude; 
+        }
+        
+        function displayHK() {
+            displayInfo.innerHTML = '<h4>Country: Hong Kong</h4><p>Telephone code: +852</p><p>Emergency services: 999</p><p>Travel Industry Council of Hong Kong: 2807 0707</p><p>Hong Kong International Airport: 2181 8888</p><p>Government enquiry: 1083</p><p>Telephone directory enquiries: 1081</p>'
+        }
+        
+        function displayChina() {
+            displayInfo.innerHTML = '<h4>Country: China</h4><p>Telephone code: +86</p><p>Police: 110</p><p>Ambulance: 120</p><p>Fire: 119</p>'
+        }
+        
+        function displayTaiwan() {
+            displayInfo.innerHTML = '<h4>Country: Taiwan</h4><p>Telephone code: +886</p><p>Police: 110</p><p>Ambulance/Fire: 119</p><p>Alternative Emergency Hotline: 112</p><p>Tourist information hotline: 2-2717-3737</p><p>Toll free travel information center: 0800-011-765'
+        }
+        
+//        Enter correct data below
+        function displayJapan() {
+            displayInfo.innerHTML = '<h4>Country: Taiwan</h4><p>Telephone code: +886</p><p>Police: 110</p><p>Ambulance/Fire: 119</p><p>Alternative Emergency Hotline: 112</p><p>Tourist information hotline: 2-2717-3737</p><p>Toll free travel information center: 0800-011-765'
+        }
+        
+        function displayUSA() {
+            displayInfo.innerHTML = '<h4>Country: Taiwan</h4><p>Telephone code: +886</p><p>Police: 110</p><p>Ambulance/Fire: 119</p><p>Alternative Emergency Hotline: 112</p><p>Tourist information hotline: 2-2717-3737</p><p>Toll free travel information center: 0800-011-765'
+        }
+        
+        function displayAustralia() {
+            displayInfo.innerHTML = '<h4>Country: Taiwan</h4><p>Telephone code: +886</p><p>Police: 110</p><p>Ambulance/Fire: 119</p><p>Alternative Emergency Hotline: 112</p><p>Tourist information hotline: 2-2717-3737</p><p>Toll free travel information center: 0800-011-765'
+        }
