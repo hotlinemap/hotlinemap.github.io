@@ -9,10 +9,10 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="script.js"></script>
+        
     </head>
     <body>
-        <section class="header">
+    <section class="header">
         <div class="header-text">
             <h1 class="title">HotlineMap</h1>
             <p class="tagline">Find hotlines from around the world</p>
@@ -29,7 +29,7 @@
                             <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select Country
                             <span class="caret"></span></button>
                             <ul class="dropdown-menu">
-                                <li><a href="#detect" onclick="getLocation()">Auto Detect</a></li>
+                                <li><a href="#detect" onclick="geoLocation()">Auto Detect</a></li>
                                 <li><a href="#hk" onclick="displayHK()">Hong Kong</a></li>
                                 <li><a href="#china" onclick="displayChina()">China</a></li>
                                 <li><a href="#taiwan" onclick="displayTaiwan()">Taiwan</a></li>
@@ -51,4 +51,5 @@
         </div>
     </section>
     </body>
+    <script src="script.js"></script>
 </html>
