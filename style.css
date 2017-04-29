@@ -31,3 +31,10 @@ section.find-numbers {
 .search {
     text-align: center;
 }
+
+.footer {
+    background-color: #212121;
+    padding: 30px 50px;
+    color: white;
+    font-size: 12px;
+}
