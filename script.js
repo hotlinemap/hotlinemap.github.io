@@ -33,13 +33,6 @@ function displayTaiwan() {
 function displayJapan() {
 	displayInfo.innerHTML = '<h4>Country: Japan</h4><p>Telephone code: +81</p><p>Police: 110</p><p>Emergency Hotline: 119</p><p>Emergency at sea: 118</p><p>Tourist information hotline: 0570 000 911</p>'
 }
-        
-function displayUS() {
-	displayInfo.innerHTML = '<h4>Country: Taiwan</h4><p>Telephone code: +886</p><p>Police: 110</p><p>Ambulance/Fire: 119</p><p>Alternative Emergency Hotline: 112</p><p>Tourist information hotline: 2-2717-3737</p><p>Toll free travel information center: 0800-011-765'
-}
-        
-function displayAus() {
-	displayInfo.innerHTML = '<h4>Country: Taiwan</h4><p>Telephone code: +886</p><p>Police: 110</p><p>Ambulance/Fire: 119</p><p>Alternative Emergency Hotline: 112</p><p>Tourist information hotline: 2-2717-3737</p><p>Toll free travel information center: 0800-011-765'
 
 function displayUSA() {
 	displayInfo.innerHTML = '<h4>Country: USA</h4><p>Telephone code: +1</p><p>Emergency Hotline: 911</p><p>Suicide Prevention Hotline: (800) 273-TALK (8255)</p><p>Tourist information hotline: 2-2717-3737</p><p>Poison Control: (800) 222-1222</p>'
