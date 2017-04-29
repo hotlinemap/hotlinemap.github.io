@@ -18,3 +18,8 @@ a {
 a:hover {
 	color: blue;
 }
+
+p { /* This is the styling information for the copyright, as it's the only <p> element. */
+	text-align: center;
+	font-size: 10px;
+}
