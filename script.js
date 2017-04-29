@@ -27,7 +27,7 @@ function displayChina() {
 }
         
 function displayTaiwan() {
-	displayInfo.innerHTML = '<h4>Country: Taiwan</h4><p>Telephone code: +886</p><p>Police: 110</p><p>Ambulance/Fire: 119</p><p>Alternative Emergency Hotline: 112</p><p>Tourist information hotline: 2-2717-3737</p><p>Toll free travel information center: 0800-011-765'
+	displayInfo.innerHTML = '<h4>Country: Taiwan</h4><p>Telephone code: +886</p><p>Police: 110</p><p>Ambulance/Fire: 119</p><p>Alternative Emergency Hotline: 112</p><p>Tourist information hotline: 2 2717 3737</p><p>Toll free travel information center: 0800 011 765'
 }
         
 function displayJapan() {
@@ -39,5 +39,5 @@ function displayUSA() {
 }
         
 function displayAustralia() {
-	displayInfo.innerHTML = '<h4>Country: Australia</h4><p>Telephone code: +61</p><p>Emergency hotline: 000</p><p>Police Hotline: 131 444</p><p>Tourist information hotline: +61 2 9360 1111</p><p>Suicide Prevention Hotline: 1300 364 566</p>'
+	displayInfo.innerHTML = '<h4>Country: Australia</h4><p>Telephone code: +61</p><p>Emergency hotline: 000</p><p>Police Hotline: 131 444</p><p>Tourist information hotline: 2 9360 1111</p><p>Suicide Prevention Hotline: 1300 364 566</p>'
 }
