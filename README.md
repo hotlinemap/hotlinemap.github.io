@@ -1,1 +1,2 @@
-# hotlinemap.github.io
+# Hotline Map
+When you're on holiday, you don't know what could happen. Anything could happen and you would be unprepared. In this situation, you wouldn't know what to do as you don't live there and you don't know the phone number for different services like police, fire and health. Enter Hotline Map. With Hotline Map, you select where you live and then all the important phone numbers that you might potentially need.
