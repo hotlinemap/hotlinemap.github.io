@@ -22,3 +22,8 @@ section.header {
 section.find-numbers {
     padding-top: 50px;
 }
+
+.jumbotron {
+    height: 400px;
+    overflow: auto;
+}
