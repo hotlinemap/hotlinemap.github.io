@@ -40,11 +40,15 @@ function displayJapan() {
 }
 
 function displayUSA() {
-	displayInfo.innerHTML = '<h4>Country: USA</h4><p>Telephone code: +1</p><p>Emergency Hotline: 911</p><p>Suicide Prevention Hotline: (800) 273-TALK (8255)</p><p>Tourist information hotline: 2-2717-3737</p><p>Poison Control: (800) 222-1222</p>';
+	displayInfo.innerHTML = '<h4>Country: USA</h4><p>Telephone code: +1</p><p>Emergency Hotline: 911</p><p>Suicide Prevention Hotline: (800) 273-TALK (8255)</p><p>Tourist information hotline: 2 2717 3737</p><p>Poison Control: (800) 222 1222</p>';
     selectedCountry.innerHTML = 'United States of America';
 }
         
 function displayAustralia() {
 	displayInfo.innerHTML = '<h4>Country: Australia</h4><p>Telephone code: +61</p><p>Emergency hotline: 000</p><p>Police Hotline: 131 444</p><p>Tourist information hotline: 2 9360 1111</p><p>Suicide Prevention Hotline: 1300 364 566</p>';
     selectedCountry.innerHTML = 'Australia';
+}
+function displayUK() {
+	displayInfo.innerHTML = '<h4>Country: UK</h4><p>Telephone code: +44<p>Emergency hotline: 999</p><p>Alternative Emergency Hotline: 112</p><p>Gas Emergency: 0800 111 999</p>'
+	selectedCountry.innerHTML = 'United Kingdom';
 }
